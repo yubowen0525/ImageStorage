@@ -1,14 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T07:15:21.441Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kpMKhcXaV_HIAWviYfxk" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T09:46:13.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sw5o1Qro0onH5qF08S09" version="14.7.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2142" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2208" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-29" value="UI Notification" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=40;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="140" width="1510" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="Upf0A19Yq0ez-udiKR_j-33" value="ZTSA / DataLake" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="60" width="150" height="850" as="geometry" />
         </mxCell>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-20" value="SaseOne Reverse Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="60" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WJ6oJNyNd8eeu6Pzfcjg-20">
+          <mxGeometry x="70" y="90" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-21" value="SASEOne Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="60" width="150" height="850" as="geometry" />
@@ -28,8 +34,17 @@
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-28" value="Connector" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-590" y="60" width="150" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-29" value="push cmd" style="shape=umlFrame;whiteSpace=wrap;html=1;width=70;height=30;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="130" width="1460" height="370" as="geometry" />
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="740" y="150" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-33" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.488;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WJ6oJNyNd8eeu6Pzfcjg-31">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="620" y="269.5" as="sourcePoint" />
+            <mxPoint x="572" y="179" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
