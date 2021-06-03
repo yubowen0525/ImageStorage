@@ -1,11 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T09:16:17.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ALBkmAYmOe7aXbHA6uuu" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-03T09:26:08.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="aKJiOJL5nUXcOyXO2xtY" version="14.7.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2035" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-29" value="Policy Change Notification" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=49;" parent="1" vertex="1">
           <mxGeometry x="-680" y="127" width="1700" height="293" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-26" value="Event Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-230" y="60" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-98" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-620" y="60" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-28" value="Connector" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-98" vertex="1">
+          <mxGeometry width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-98">
+          <mxGeometry x="70" y="180" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-27" value="ChannelSvc" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-420" y="60" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-96" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-620" y="60" width="1620" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-84" value="Connector" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-96">
+          <mxGeometry width="150" height="850" as="geometry" />
+        </mxCell>
+        <UserObject label="Rule Engine" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Rule_Deployment" linkTarget="_blank" id="WJ6oJNyNd8eeu6Pzfcjg-22">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-96" vertex="1">
+            <mxGeometry x="930" width="150" height="850" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Upf0A19Yq0ez-udiKR_j-33" value="ZTSA / DataLake" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-96" vertex="1">
+          <mxGeometry x="1470" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-20" value="SaseOne Reverse Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-96" vertex="1">
+          <mxGeometry x="1290" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-21" value="SASEOne Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-96" vertex="1">
+          <mxGeometry x="1110" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-25" value="Event Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-96" vertex="1">
+          <mxGeometry x="570" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-23" value="DevMgmt" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-96">
+          <mxGeometry x="750" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-83" value="ChannelSvc" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-96">
+          <mxGeometry x="200" width="150" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-85" value="Event Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-96">
+          <mxGeometry x="390" width="150" height="850" as="geometry" />
         </mxCell>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="690" y="230" height="80" as="geometry" />
@@ -58,9 +105,6 @@
             <mxPoint x="380" y="224.96000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="244" width="10" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-50" value="6. send event to connectors" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.1;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.2;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-46" target="SiqBBNk7Fq4k7bAk1j-C-49">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="391" y="259.03700000000003" as="sourcePoint" />
@@ -75,9 +119,6 @@
             <mxPoint x="-162" y="257" as="sourcePoint" />
             <mxPoint x="-330" y="250" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="240" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-54" value="8. send event to connectors" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.3;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-51" target="SiqBBNk7Fq4k7bAk1j-C-53">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -142,50 +183,14 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="920" y="315.5" width="10" height="56.5" as="geometry" />
         </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-26" value="Event Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="60" width="150" height="850" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-27" value="ChannelSvc" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="60" width="150" height="850" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-28" value="Connector" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="60" width="150" height="850" as="geometry" />
-        </mxCell>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="20" y="232" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-87" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-620" y="60" width="1620" height="920" as="geometry" />
+        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="740" y="150" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Upf0A19Yq0ez-udiKR_j-33" value="ZTSA / DataLake" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-87" vertex="1">
-          <mxGeometry x="1470" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-20" value="SaseOne Reverse Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-87" vertex="1">
-          <mxGeometry x="1290" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="WJ6oJNyNd8eeu6Pzfcjg-20" vertex="1">
-          <mxGeometry x="70" y="97.41176470588235" width="10" height="64.94117647058823" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-21" value="SASEOne Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-87" vertex="1">
-          <mxGeometry x="1110" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-22" value="Rule Engine" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-87" vertex="1">
-          <mxGeometry x="930" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-25" value="Event Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-87" vertex="1">
-          <mxGeometry x="570" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-23" value="DevMgmt" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-87">
-          <mxGeometry x="750" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-83" value="ChannelSvc" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-87">
-          <mxGeometry x="200" width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-84" value="Connector" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-87">
-          <mxGeometry width="150" height="919.9999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-85" value="Event Worker" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-87">
-          <mxGeometry x="390" width="150" height="919.9999999999999" as="geometry" />
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="244" width="10" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
