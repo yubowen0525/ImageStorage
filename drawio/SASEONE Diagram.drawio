@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T06:03:13.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="weYRtv-M8aeY4No3y0lQ" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:29:18.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="PixGOIvjTe0wY1NZZPCQ" version="14.7.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,12 +103,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="200" y="190" width="10" height="40" as="geometry" />
+          <mxGeometry x="200" y="180" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-44" value="3.1. clear cache&lt;br&gt;3.2.get online connectors from cid" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.4;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-8" target="SiqBBNk7Fq4k7bAk1j-C-43">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-44" value="3.1. refresh rule cache to now&lt;br&gt;3.2.get online connectors from cid" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.4;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="750" y="190" as="sourcePoint" />
-            <mxPoint x="210" y="204" as="targetPoint" />
+            <mxPoint x="376" y="186.524" as="sourcePoint" />
+            <mxPoint x="210" y="186.524" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-45" value="4. return online connectors" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.9;exitY=0.649;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -147,19 +147,19 @@
             <mxPoint x="380" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-60" value="10.7 get accessRule by cid" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-60" value="10.12 get accessRule by cid" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="590" as="sourcePoint" />
             <mxPoint x="560" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-62" value="10.10. return latest accessRule" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-169">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-62" value="10.15. return latest accessRule" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-169">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="633" as="sourcePoint" />
             <mxPoint x="390" y="633" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-63" value="14. return latest policy" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-57" target="SiqBBNk7Fq4k7bAk1j-C-53">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-63" value="10.17. return latest rule of agents" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-57" target="SiqBBNk7Fq4k7bAk1j-C-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="365" as="sourcePoint" />
             <mxPoint x="400" y="365" as="targetPoint" />
@@ -183,13 +183,13 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="-550" y="230" width="10" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-114" value="10.1 check token&lt;br&gt;10.2 get device info by deviceId&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-114" value="10.6 check token&lt;br&gt;10.7 get device info by deviceId&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="450" as="sourcePoint" />
             <mxPoint x="920" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-124" value="10.3 return device info(&lt;b&gt;externalIp&lt;/b&gt;)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-124" value="10.8 return device info(&lt;b&gt;externalIp&lt;/b&gt;)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="470" as="sourcePoint" />
             <mxPoint x="390" y="470" as="targetPoint" />
@@ -201,13 +201,13 @@
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="740" y="150" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-134" value="10.4 get geo by externalIp" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-134" value="10.9 get geo by externalIp of device info" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="497" as="sourcePoint" />
             <mxPoint x="1105" y="497" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-137" value="10.5 return geo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-137" value="10.10 return geo" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1105" y="516" as="sourcePoint" />
             <mxPoint x="390" y="516" as="targetPoint" />
@@ -219,7 +219,7 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-115" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="920" y="430" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-143" value="10.6 get groupinfo&lt;br&gt;from user_group_cache" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-57">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-143" value="10.11 get groupinfo&lt;br&gt;from user_group_cache" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-57">
           <mxGeometry x="0.44" y="-14" width="80" relative="1" as="geometry">
             <mxPoint x="390" y="544" as="sourcePoint" />
             <mxPoint x="390" y="574" as="targetPoint" />
@@ -230,8 +230,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-144" value="10.11 get groupinfo&lt;br&gt;from user_group_cache" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
-          <mxGeometry x="0.44" y="-14" width="80" relative="1" as="geometry">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-144" value="10.16 set online agents that does not exist in the cache to now.&lt;br&gt;online agents&amp;nbsp; is connector return." style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="0.0815" y="80" width="80" relative="1" as="geometry">
             <mxPoint x="390" y="664" as="sourcePoint" />
             <mxPoint x="390" y="694" as="targetPoint" />
             <Array as="points">
@@ -244,12 +244,12 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-157" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="380" y="300" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-158" value="9. get rule state params{ruel_version, cid, connectorId}" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="SiqBBNk7Fq4k7bAk1j-C-157" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-53">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-158" value="9. get rule state params{ruel_version(old), cid, connectorId}" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="SiqBBNk7Fq4k7bAk1j-C-157" parent="1" source="SiqBBNk7Fq4k7bAk1j-C-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-159" value="10.4 return cloud online agents of rule change" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="SiqBBNk7Fq4k7bAk1j-C-157" parent="1" target="SiqBBNk7Fq4k7bAk1j-C-53">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-159" value="10.4.1 使用 online agents的 时间戳比较connector的rule时间戳， 将需要更新的agents返回给connector&amp;nbsp;&lt;br&gt;10.4.2 return cloud online agents of rule change" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="SiqBBNk7Fq4k7bAk1j-C-157" parent="1" target="SiqBBNk7Fq4k7bAk1j-C-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="376" as="targetPoint" />
           </mxGeometry>
@@ -278,13 +278,13 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-169" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="560" y="580" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-14" value="10.8. get accessRule" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-14" value="10.13. get accessRule" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry y="120" width="80" as="geometry">
             <mxPoint x="570" y="600" as="sourcePoint" />
             <mxPoint x="1280" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-61" value="10.9. return latest accessRule" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-61" value="10.14. return latest accessRule" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
           <mxGeometry y="150" as="geometry">
             <mxPoint x="1280" y="628.25" as="sourcePoint" />
             <mxPoint x="570" y="628.25" as="targetPoint" />
