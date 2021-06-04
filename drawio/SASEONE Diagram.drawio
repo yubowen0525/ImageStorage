@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:33:01.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ShUNnJz9uWx-bMxoWx3r" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:39:35.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kKdEPz7HpwC8O3YIAAbC" version="14.7.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2881" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,9 +24,11 @@
             <mxGeometry x="990" width="150" height="770" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-25" value="Event Service:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-166" vertex="1">
-          <mxGeometry x="630" width="150" height="770" as="geometry" />
-        </mxCell>
+        <UserObject label="Event Service:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Rule_Deployment#Design_ZTNA_Controller_Rule_Deployment-EventService" linkTarget="_blank" id="WJ6oJNyNd8eeu6Pzfcjg-25">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-166" vertex="1">
+            <mxGeometry x="630" width="150" height="770" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-23" value="DevMgmt:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
           <mxGeometry x="810" width="150" height="770" as="geometry" />
         </mxCell>
@@ -39,33 +41,43 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-128" value="SaseOne Reverse Proxy:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
           <mxGeometry x="1350" width="150" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-129" value="SASEOne Proxy:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
-          <mxGeometry x="1170" width="150" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-104" value="Agent Service:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
-          <mxGeometry x="1540" width="130" height="750" as="geometry" />
-        </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-132" value="Geolocation Service:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
-          <mxGeometry x="1720" width="140" height="750" as="geometry" />
-        </mxCell>
+        <UserObject label="SASEOne Proxy:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Integration_with_SASEOne#Design_ZTNA_Controller_Integration_with_SASEOne-SASEOneProxy" linkTarget="_blank" id="SiqBBNk7Fq4k7bAk1j-C-129">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
+            <mxGeometry x="1170" width="150" height="770" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Agent Service:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Agent_Service#Design_ZTNA_Controller_Agent_Service-QueryDeviceInfo(PolicyService%E2%86%92AgentService)" linkTarget="_blank" id="SiqBBNk7Fq4k7bAk1j-C-104">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
+            <mxGeometry x="1540" width="130" height="750" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Geolocation Service:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Geolocation+Service" linkTarget="_blank" id="SiqBBNk7Fq4k7bAk1j-C-132">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
+            <mxGeometry x="1720" width="140" height="750" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
           <mxGeometry x="1960" y="530" width="10" height="56.5" as="geometry" />
         </mxCell>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-163" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SiqBBNk7Fq4k7bAk1j-C-166">
           <mxGeometry x="880" y="260" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-26" value="Event Worker:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="60" width="150" height="850" as="geometry" />
-        </mxCell>
+        <UserObject label="Event Worker:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Rule_Deployment#Design_ZTNA_Controller_Rule_Deployment-EventService" linkTarget="_blank" id="WJ6oJNyNd8eeu6Pzfcjg-26">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="-230" y="60" width="150" height="850" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-98" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-620" y="60" width="150" height="850" as="geometry" />
         </mxCell>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-28" value="Connector: ext" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-98" vertex="1">
           <mxGeometry width="150" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-27" value="ChannelSvc:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="60" width="150" height="850" as="geometry" />
-        </mxCell>
+        <UserObject label="ChannelSvc:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/ZTNA+Controller+Design+Connector+Management#ZTNAControllerDesignConnectorManagement-APISpec" linkTarget="_blank" id="WJ6oJNyNd8eeu6Pzfcjg-27">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="-420" y="60" width="150" height="850" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="690" y="230" height="80" as="geometry" />
         </mxCell>
@@ -195,9 +207,11 @@
             <mxPoint x="390" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-20" value="SaseOne Reverse Proxy:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="60" width="150" height="1450" as="geometry" />
-        </mxCell>
+        <UserObject label="SaseOne Reverse Proxy:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Integration_with_SASEOne#Design_ZTNA_Controller_Integration_with_SASEOne-SASEOneReverseProxy:notificationpart:accessrules" linkTarget="_blank" id="WJ6oJNyNd8eeu6Pzfcjg-20">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="670" y="60" width="150" height="1450" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="740" y="150" width="10" height="60" as="geometry" />
         </mxCell>
@@ -290,6 +304,14 @@
             <mxPoint x="570" y="628.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e37ClENNu22uMj0PYmEW" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Vqq5ShF8qfTgLgZiVyZE-0" />
+        <mxCell id="Vqq5ShF8qfTgLgZiVyZE-1" parent="Vqq5ShF8qfTgLgZiVyZE-0" />
       </root>
     </mxGraphModel>
   </diagram>
