@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:46:59.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ewGn-7AGH_K8OrssbUUk" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:47:12.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zwccETq7huXyMNill7op" version="14.7.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2523" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="200" y="280" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-44" value="3.1. refresh rule cache to now&lt;br&gt;3.2.get online connectors from cid" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.4;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-44" value="3.1. refresh rule cache to now&lt;br&gt;3.2 delete app or user group cache&amp;nbsp;&lt;br&gt;3.3.get online connectors from cid" style="html=1;verticalAlign=bottom;endArrow=block;exitX=-0.4;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="376" y="286.524" as="sourcePoint" />
             <mxPoint x="210" y="286.524" as="targetPoint" />
