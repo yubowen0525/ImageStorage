@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:41:53.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4BELq-m4eXliSIEf5C6U" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:42:41.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ukocp97J2BNarr8rOhTM" version="14.7.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2523" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2523" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -209,7 +209,7 @@
         </mxCell>
         <UserObject label="SaseOne Reverse Proxy:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Integration_with_SASEOne#Design_ZTNA_Controller_Integration_with_SASEOne-SASEOneReverseProxy:notificationpart:accessrules" linkTarget="_blank" id="WJ6oJNyNd8eeu6Pzfcjg-20">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=0;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-            <mxGeometry x="670" y="-175" width="150" height="1105" as="geometry" />
+            <mxGeometry x="670" y="160" width="150" height="790" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="WJ6oJNyNd8eeu6Pzfcjg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
