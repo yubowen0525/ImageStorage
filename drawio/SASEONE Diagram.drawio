@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:29:18.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="PixGOIvjTe0wY1NZZPCQ" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:33:01.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ShUNnJz9uWx-bMxoWx3r" version="14.7.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
             <mxPoint x="310" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-159" value="10.4.1 使用 online agents的 时间戳比较connector的rule时间戳， 将需要更新的agents返回给connector&amp;nbsp;&lt;br&gt;10.4.2 return cloud online agents of rule change" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="SiqBBNk7Fq4k7bAk1j-C-157" parent="1" target="SiqBBNk7Fq4k7bAk1j-C-53">
+        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-159" value="10.4.1 使用 online agents的 时间戳比较connector的rule时间戳， 将需要更新的agents返回给connector&lt;br&gt;10.4.2 将不存在的online agent 更新入rule agent cache.&amp;nbsp;&lt;br&gt;10.4.3 return cloud online agents of rule change" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="SiqBBNk7Fq4k7bAk1j-C-157" parent="1" target="SiqBBNk7Fq4k7bAk1j-C-53">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="376" as="targetPoint" />
           </mxGeometry>
