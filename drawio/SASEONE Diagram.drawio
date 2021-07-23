@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T03:38:09.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="mgh-zFvBIWM98vrgNhvK" version="14.9.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-23T06:25:54.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="H0sKvW5cZ-j5BWnSrD09" version="14.9.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1796" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2404" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,9 +26,11 @@
             <mxGeometry x="630" width="150" height="770" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="SiqBBNk7Fq4k7bAk1j-C-23" value="DevMgmt:int" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-166" vertex="1">
-          <mxGeometry x="810" width="150" height="770" as="geometry" />
-        </mxCell>
+        <UserObject label="DevMgmt:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/ZTNA+Controller+Design+Connector+Management" linkTarget="_blank" id="SiqBBNk7Fq4k7bAk1j-C-23">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-166" vertex="1">
+            <mxGeometry x="810" width="150" height="770" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="SiqBBNk7Fq4k7bAk1j-C-83" value="ChannelSvc" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="SiqBBNk7Fq4k7bAk1j-C-166" vertex="1">
           <mxGeometry x="260" width="150" height="770" as="geometry" />
         </mxCell>
