@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T07:50:31.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="vRVmNWP58pS2blP_icEY" version="14.9.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-23T08:24:39.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="jSVumoBDlv68Vbxz6ySg" version="14.9.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2404" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -635,24 +635,15 @@
         </mxCell>
         <UserObject label="DevMgmt:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/ZTNA+Controller+Design+Connector+Management#ZTNAControllerDesignConnectorManagement-APISpec" linkTarget="_blank" id="aYEcNuXE1y3pQc9s21fY-4">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="Vqq5ShF8qfTgLgZiVyZE-1" vertex="1">
-            <mxGeometry x="1700" y="110" width="130" height="1020" as="geometry" />
+            <mxGeometry x="1670" y="110" width="130" height="1020" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="aYEcNuXE1y3pQc9s21fY-7" value="8. get FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Vqq5ShF8qfTgLgZiVyZE-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1564.5" y="743" as="sourcePoint" />
+            <mxPoint x="1565" y="743" as="sourcePoint" />
             <mxPoint x="1400" y="743" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1470" y="743" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aYEcNuXE1y3pQc9s21fY-8" value="9. FRP server, connector list" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="Vqq5ShF8qfTgLgZiVyZE-1" source="1lCpWMZilPfNaGdBIe2o-17" target="1lCpWMZilPfNaGdBIe2o-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1564.5" y="797.75" as="targetPoint" />
-            <mxPoint x="1390" y="777.75" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1520" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -662,17 +653,18 @@
           </mxCell>
         </UserObject>
         <mxCell id="aYEcNuXE1y3pQc9s21fY-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Vqq5ShF8qfTgLgZiVyZE-1" vertex="1">
-          <mxGeometry x="2170" y="855" width="10" height="80" as="geometry" />
+          <mxGeometry x="2170" y="897" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="aYEcNuXE1y3pQc9s21fY-11" value="10. Connect to FRP server" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="Vqq5ShF8qfTgLgZiVyZE-1" target="aYEcNuXE1y3pQc9s21fY-10" edge="1">
+        <mxCell id="aYEcNuXE1y3pQc9s21fY-11" value="10. Connect to FRP server" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="Vqq5ShF8qfTgLgZiVyZE-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1564.5" y="855" as="sourcePoint" />
+            <mxPoint x="1564.5" y="903" as="sourcePoint" />
+            <mxPoint x="2170" y="903" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aYEcNuXE1y3pQc9s21fY-12" value="11.1 if error : show network error message&lt;br&gt;11.2 FRP connected&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="Vqq5ShF8qfTgLgZiVyZE-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1564.5" y="921" as="targetPoint" />
-            <mxPoint x="2170" y="921" as="sourcePoint" />
+            <mxPoint x="1564.5" y="934" as="targetPoint" />
+            <mxPoint x="2170" y="934" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aYEcNuXE1y3pQc9s21fY-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Vqq5ShF8qfTgLgZiVyZE-1" vertex="1">
@@ -712,22 +704,44 @@
             <mxPoint x="-560" y="989" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-gzmytU94NSXLqVmS21C-0" value="9. get FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
+        <mxCell id="-gzmytU94NSXLqVmS21C-1" value="10. return FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1400" y="761" as="sourcePoint" />
-            <mxPoint x="1764.5" y="761" as="targetPoint" />
+            <mxPoint x="1400" y="887" as="targetPoint" />
+            <mxPoint x="1734.5" y="887" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1480" y="761" />
+              <mxPoint x="1530" y="887" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-gzmytU94NSXLqVmS21C-1" value="10. return FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
+        <UserObject label="ztnpMgmt:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/ZTNA+Controller+Design+Connector+Management#ZTNAControllerDesignConnectorManagement-APISpec" linkTarget="_blank" id="-gzmytU94NSXLqVmS21C-3">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
+            <mxGeometry x="1850" y="110" width="130" height="1020" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-gzmytU94NSXLqVmS21C-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
+          <mxGeometry x="1730" y="760" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-gzmytU94NSXLqVmS21C-12" value="9. get FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="-gzmytU94NSXLqVmS21C-11" parent="Vqq5ShF8qfTgLgZiVyZE-1" source="1lCpWMZilPfNaGdBIe2o-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1400" y="790" as="targetPoint" />
-            <mxPoint x="1764.5" y="790" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1530" y="790" />
-            </Array>
+            <mxPoint x="1660" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gzmytU94NSXLqVmS21C-13" value="11. return FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="-gzmytU94NSXLqVmS21C-11" parent="Vqq5ShF8qfTgLgZiVyZE-1" target="1lCpWMZilPfNaGdBIe2o-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gzmytU94NSXLqVmS21C-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
+          <mxGeometry x="1910" y="770" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-gzmytU94NSXLqVmS21C-15" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="-gzmytU94NSXLqVmS21C-14" parent="Vqq5ShF8qfTgLgZiVyZE-1" source="-gzmytU94NSXLqVmS21C-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-gzmytU94NSXLqVmS21C-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="-gzmytU94NSXLqVmS21C-14" parent="Vqq5ShF8qfTgLgZiVyZE-1" target="-gzmytU94NSXLqVmS21C-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="806" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
