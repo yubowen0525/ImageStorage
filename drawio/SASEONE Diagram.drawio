@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T07:50:11.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="S1cSLkh_2zadSm3Gs2i6" version="14.9.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-23T07:50:31.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="vRVmNWP58pS2blP_icEY" version="14.9.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2404" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -638,12 +638,12 @@
             <mxGeometry x="1700" y="110" width="130" height="1020" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="aYEcNuXE1y3pQc9s21fY-7" value="8. get FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Vqq5ShF8qfTgLgZiVyZE-1" source="1lCpWMZilPfNaGdBIe2o-10" target="1lCpWMZilPfNaGdBIe2o-17" edge="1">
+        <mxCell id="aYEcNuXE1y3pQc9s21fY-7" value="8. get FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=block;" parent="Vqq5ShF8qfTgLgZiVyZE-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1560" y="755" as="sourcePoint" />
-            <mxPoint x="1390" y="735" as="targetPoint" />
+            <mxPoint x="1564.5" y="743" as="sourcePoint" />
+            <mxPoint x="1400" y="743" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1470" y="750" />
+              <mxPoint x="1470" y="743" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -714,10 +714,10 @@
         </mxCell>
         <mxCell id="-gzmytU94NSXLqVmS21C-0" value="9. get FRP/VPN configuration" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Vqq5ShF8qfTgLgZiVyZE-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1400" y="769" as="sourcePoint" />
-            <mxPoint x="1764.5" y="769" as="targetPoint" />
+            <mxPoint x="1400" y="761" as="sourcePoint" />
+            <mxPoint x="1764.5" y="761" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1480" y="769" />
+              <mxPoint x="1480" y="761" />
             </Array>
           </mxGeometry>
         </mxCell>
