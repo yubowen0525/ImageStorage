@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T02:20:22.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="3NjhtjNYocVjEwL2Wq8U" version="14.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-18T02:24:31.633Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="gStdtFWKeBOcC0C0wIx_" version="14.9.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -763,63 +763,63 @@
     </mxGraphModel>
   </diagram>
   <diagram id="doC7LhH4VMsgOnH61H9x" name="Page-3">
-    <mxGraphModel dx="1796" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2201" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-0" />
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-1" parent="DPT_xszIuRtOfXbqZ1-z-0" />
-        <mxCell id="DPT_xszIuRtOfXbqZ1-z-2" value="" style="group" vertex="1" connectable="0" parent="DPT_xszIuRtOfXbqZ1-z-1">
-          <mxGeometry x="-620" y="70" width="2050" height="770" as="geometry" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-14" value="" style="group" vertex="1" connectable="0" parent="DPT_xszIuRtOfXbqZ1-z-1">
+          <mxGeometry x="-590" y="120" width="1140" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="DPT_xszIuRtOfXbqZ1-z-9" value="IDP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-          <mxGeometry x="500" width="150" height="430" as="geometry" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="106.875" y="199.53488372093025" width="17.8125" height="145.11627906976747" as="geometry" />
+        </mxCell>
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-13" value="1. Client Open&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="zZNx2QuTMXIspCkCUTdB-12" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115.78125" y="126.97674418604652" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="169.21875" y="126.97674418604652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPT_xszIuRtOfXbqZ1-z-9" value="IDP" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="872.8125" width="267.1875" height="780" as="geometry" />
         </mxCell>
         <UserObject label="Agent Service:int" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Agent_Service#Design_ZTNA_Controller_Agent_Service-QueryDeviceInfo(PolicyService%E2%86%92AgentService)" linkTarget="_blank" id="DPT_xszIuRtOfXbqZ1-z-13">
-          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-            <mxGeometry x="270" width="130" height="430" as="geometry" />
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+            <mxGeometry x="463.125" width="231.5625" height="780" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Agent" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Agent_Service#Design_ZTNA_Controller_Agent_Service-QueryDeviceInfo(PolicyService%E2%86%92AgentService)" linkTarget="_blank" id="DPT_xszIuRtOfXbqZ1-z-68">
-          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-            <mxGeometry x="10" width="130" height="420" as="geometry" />
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+            <mxGeometry width="231.5625" height="761.8604651162791" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-2" value="connection start: 382ms&lt;br&gt;req/res: 195ms" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-          <mxGeometry x="330" y="190" width="10" height="60" as="geometry" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-2" value="connection start: 382ms&lt;br&gt;req/res: 195ms" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="570" y="344.65116279069775" width="17.8125" height="108.8372093023256" as="geometry" />
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-3" value="2. send req to login" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZNx2QuTMXIspCkCUTdB-2" parent="DPT_xszIuRtOfXbqZ1-z-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="190" as="sourcePoint" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-3" value="2. send req to login" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="zZNx2QuTMXIspCkCUTdB-2" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="-17.8125" as="geometry">
+            <mxPoint x="115.78125" y="344.65116279069775" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-4" value="3. 302 to IDP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="zZNx2QuTMXIspCkCUTdB-2" parent="DPT_xszIuRtOfXbqZ1-z-2" target="DPT_xszIuRtOfXbqZ1-z-68">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="176" as="targetPoint" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-4" value="3. 302 to IDP" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="zZNx2QuTMXIspCkCUTdB-2" parent="zZNx2QuTMXIspCkCUTdB-14" target="DPT_xszIuRtOfXbqZ1-z-68">
+          <mxGeometry x="-17.8125" as="geometry">
+            <mxPoint x="391.875" y="319.25581395348837" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-9" value="connection start: 220ms&lt;br&gt;req/res: 760ms" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-          <mxGeometry x="570" y="280" width="10" height="130" as="geometry" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-9" value="connection start: 220ms&lt;br&gt;req/res: 760ms" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="997.5" y="507.90697674418607" width="17.8125" height="235.81395348837214" as="geometry" />
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-11" value="5. return Login Page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="74.5" y="400" as="targetPoint" />
-            <mxPoint x="570" y="400" as="sourcePoint" />
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-11" value="5. return Login Page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="-17.8125" as="geometry">
+            <mxPoint x="114.890625" y="725.5813953488373" as="targetPoint" />
+            <mxPoint x="997.5" y="725.5813953488373" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-10" value="4. SSOService.php" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DPT_xszIuRtOfXbqZ1-z-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="74.5" y="290" as="sourcePoint" />
-            <mxPoint x="570" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
-          <mxGeometry x="-550" y="180" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-13" value="1. Client Open&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="zZNx2QuTMXIspCkCUTdB-12" parent="DPT_xszIuRtOfXbqZ1-z-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-545" y="140" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-515" y="140" />
-            </Array>
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-10" value="4. SSOService.php" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zZNx2QuTMXIspCkCUTdB-14">
+          <mxGeometry x="-17.8125" as="geometry">
+            <mxPoint x="114.890625" y="526.0465116279071" as="sourcePoint" />
+            <mxPoint x="997.5" y="526.0465116279071" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
