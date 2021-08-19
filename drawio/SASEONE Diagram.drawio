@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T07:09:56.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="hjDvU5zaZLxJnFHhWhzy" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-19T07:31:06.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="qCC4u6yj-wBfi-Fr6mf5" version="14.9.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -846,15 +846,16 @@
             <mxGeometry x="-440" y="80" width="121.88" height="430" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="MVIVDDmD7ontjMzA8a7H-1" vertex="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-26" value="1.37s" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="MVIVDDmD7ontjMzA8a7H-1" vertex="1">
           <mxGeometry x="-384.05999999999995" y="300" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-27" value="3. post SMALRes to agentsvc" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-2" target="MVIVDDmD7ontjMzA8a7H-26" edge="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-27" value="5. post SMALRes to agentsvc" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="MVIVDDmD7ontjMzA8a7H-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-454" y="290" as="sourcePoint" />
+            <mxPoint x="-569.56" y="301.0000000000001" as="sourcePoint" />
+            <mxPoint x="-384.05999999999995" y="301.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-28" value="4. redirect to agentsvc login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-26" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-28" value="6. redirect to agentsvc login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-26" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-560" y="360" as="targetPoint" />
           </mxGeometry>
@@ -864,7 +865,7 @@
             <mxPoint x="-130" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-31" value="2. set idp token and SAMLResponse&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-29" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-31" value="2. set cookie: idp session&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-29" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-130" y="306" as="targetPoint" />
           </mxGeometry>
@@ -872,13 +873,13 @@
         <mxCell id="MVIVDDmD7ontjMzA8a7H-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="MVIVDDmD7ontjMzA8a7H-1" vertex="1">
           <mxGeometry x="-384.05999999999995" y="420" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-34" value="5. get SMAL" style="html=1;verticalAlign=bottom;endArrow=block;" parent="MVIVDDmD7ontjMzA8a7H-1" edge="1" target="MVIVDDmD7ontjMzA8a7H-33" source="MVIVDDmD7ontjMzA8a7H-2">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-34" value="7. get device token" style="html=1;verticalAlign=bottom;endArrow=block;" parent="MVIVDDmD7ontjMzA8a7H-1" edge="1" target="MVIVDDmD7ontjMzA8a7H-33" source="MVIVDDmD7ontjMzA8a7H-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-569.56" y="344.0000000000001" as="sourcePoint" />
             <mxPoint x="-384.05999999999995" y="344.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-35" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-33" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-35" value="8. return token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-33" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-454.05999999999995" y="406" as="targetPoint" />
           </mxGeometry>
