@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T07:32:04.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="jWjIxLsS7TITyO3sKvmU" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-19T07:32:56.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="0aRfKipCLfB7GaQJfr_I" version="14.9.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -855,7 +855,7 @@
             <mxPoint x="-384.05999999999995" y="301.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-28" value="6. redirect to agentsvc login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" edge="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-28" value="6. set session, redirect to agentsvc login" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-569.56" y="376" as="targetPoint" />
             <mxPoint x="-384.05999999999995" y="376" as="sourcePoint" />
@@ -880,7 +880,7 @@
             <mxPoint x="-384.05999999999995" y="344.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MVIVDDmD7ontjMzA8a7H-35" value="8. return token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-33" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
+        <mxCell id="MVIVDDmD7ontjMzA8a7H-35" value="8. return loding.html(user_id)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="MVIVDDmD7ontjMzA8a7H-1" source="MVIVDDmD7ontjMzA8a7H-33" target="MVIVDDmD7ontjMzA8a7H-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-454.05999999999995" y="406" as="targetPoint" />
           </mxGeometry>
