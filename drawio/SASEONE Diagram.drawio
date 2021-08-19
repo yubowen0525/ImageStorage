@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T02:53:08.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="EaMPXdkZWJE4KJ3wGZxG" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-19T03:04:11.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="chum2W3jJg2N9gdNH6cp" version="14.9.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -768,7 +768,7 @@
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-0" />
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-1" parent="DPT_xszIuRtOfXbqZ1-z-0" />
         <mxCell id="fhQCnkoaam4s471zvCMP-1" value="Retry&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=91;height=140;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
-          <mxGeometry x="-611.09" y="430" width="1200" height="270" as="geometry" />
+          <mxGeometry x="-611.09" y="430" width="1200" height="310" as="geometry" />
         </mxCell>
         <UserObject label="Agent" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Agent_Service#Design_ZTNA_Controller_Agent_Service-QueryDeviceInfo(PolicyService%E2%86%92AgentService)" linkTarget="_blank" id="DPT_xszIuRtOfXbqZ1-z-68">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
