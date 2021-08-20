@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T01:57:54.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="d9uebD5UV2gNGrTZ8Eo8" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-20T01:58:45.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="1ztfWMZQL0-US-BU0IlB" version="14.9.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -767,8 +767,8 @@
       <root>
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-0" />
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-1" parent="DPT_xszIuRtOfXbqZ1-z-0" />
-        <mxCell id="fhQCnkoaam4s471zvCMP-1" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;此期间显示为白色页面。&lt;br&gt;&lt;br&gt;因网络波动，导致Retry 4次&lt;/span&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=270;" parent="DPT_xszIuRtOfXbqZ1-z-1" vertex="1">
-          <mxGeometry x="-630" y="430" width="1200" height="390" as="geometry" />
+        <mxCell id="fhQCnkoaam4s471zvCMP-1" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Welcome界面等待时间过长&lt;/span&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=500;" parent="DPT_xszIuRtOfXbqZ1-z-1" vertex="1">
+          <mxGeometry x="-630" y="320" width="1200" height="530" as="geometry" />
         </mxCell>
         <UserObject label="Agent" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Agent_Service#Design_ZTNA_Controller_Agent_Service-QueryDeviceInfo(PolicyService%E2%86%92AgentService)" linkTarget="_blank" id="DPT_xszIuRtOfXbqZ1-z-68">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="DPT_xszIuRtOfXbqZ1-z-1" vertex="1">
