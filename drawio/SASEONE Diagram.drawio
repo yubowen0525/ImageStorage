@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T02:02:29.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="eIb2hBo4vaPlTUAcOyVn" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-20T02:05:42.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="5lz3gcB8veuc__d9t9f2" version="14.9.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -797,12 +797,12 @@
         <mxCell id="zZNx2QuTMXIspCkCUTdB-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;connection start: 582ms&lt;br&gt;req/res: 195ms&lt;/font&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="DPT_xszIuRtOfXbqZ1-z-1" vertex="1">
           <mxGeometry x="-20" y="464.65116279069775" width="17.8125" height="108.8372093023256" as="geometry" />
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;2. send req to login&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="DPT_xszIuRtOfXbqZ1-z-1" target="zZNx2QuTMXIspCkCUTdB-2" edge="1">
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;2. send req to login&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="DPT_xszIuRtOfXbqZ1-z-1" target="zZNx2QuTMXIspCkCUTdB-2" edge="1" source="zZNx2QuTMXIspCkCUTdB-12">
           <mxGeometry x="-607.8125" y="120" as="geometry">
             <mxPoint x="-474.21875" y="464.65116279069775" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;3. 302 to IDP&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="DPT_xszIuRtOfXbqZ1-z-1" source="zZNx2QuTMXIspCkCUTdB-2" target="DPT_xszIuRtOfXbqZ1-z-68" edge="1">
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;3. 302 to IDP&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="DPT_xszIuRtOfXbqZ1-z-1" source="zZNx2QuTMXIspCkCUTdB-2" target="zZNx2QuTMXIspCkCUTdB-12" edge="1">
           <mxGeometry x="-607.8125" y="120" as="geometry">
             <mxPoint x="-198.125" y="439.25581395348837" as="targetPoint" />
           </mxGeometry>
@@ -810,20 +810,20 @@
         <mxCell id="zZNx2QuTMXIspCkCUTdB-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;connection start: 220ms&lt;br&gt;req/res: 960ms&lt;/font&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="DPT_xszIuRtOfXbqZ1-z-1" vertex="1">
           <mxGeometry x="407.5" y="627.91" width="17.81" height="232.09" as="geometry" />
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-11" value="&lt;font style=&quot;font-size: 18px&quot;&gt;5. return Login Page&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="DPT_xszIuRtOfXbqZ1-z-1" edge="1">
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-11" value="&lt;font style=&quot;font-size: 18px&quot;&gt;5. return Login Page&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="DPT_xszIuRtOfXbqZ1-z-1" edge="1" target="zZNx2QuTMXIspCkCUTdB-12">
           <mxGeometry x="-607.8125" y="120" as="geometry">
             <mxPoint x="-475.109375" y="845.5813953488373" as="targetPoint" />
             <mxPoint x="407.5" y="845.5813953488373" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZNx2QuTMXIspCkCUTdB-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;4. SSOService.php&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="DPT_xszIuRtOfXbqZ1-z-1" edge="1">
+        <mxCell id="zZNx2QuTMXIspCkCUTdB-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;4. SSOService.php&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="DPT_xszIuRtOfXbqZ1-z-1" edge="1" source="zZNx2QuTMXIspCkCUTdB-12">
           <mxGeometry x="-607.8125" y="120" as="geometry">
             <mxPoint x="-475.109375" y="646.0465116279071" as="sourcePoint" />
             <mxPoint x="407.5" y="646.0465116279071" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9MVHOAwCIAFZyWsLew_H-0" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;此期间显示为白色页面。&lt;br&gt;&lt;br&gt;因网络波动，导致Retry 4次&lt;/span&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=270;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
-          <mxGeometry x="-630" y="1280" width="1200" height="390" as="geometry" />
+        <mxCell id="9MVHOAwCIAFZyWsLew_H-0" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;此期间显示为白色页面。&lt;br&gt;&lt;br&gt;因网络波动，导致Retry 4次&lt;/span&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=380;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
+          <mxGeometry x="-630" y="1280" width="1200" height="380" as="geometry" />
         </mxCell>
         <UserObject label="Agent" link="https://wiki.jarvis.trendmicro.com/display/ZTH/Design_ZTNA_Controller_Agent_Service#Design_ZTNA_Controller_Agent_Service-QueryDeviceInfo(PolicyService%E2%86%92AgentService)" linkTarget="_blank" id="9MVHOAwCIAFZyWsLew_H-1">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
@@ -852,7 +852,7 @@
         <mxCell id="9MVHOAwCIAFZyWsLew_H-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;connection start: 382ms&lt;br&gt;req/res: 195ms&lt;/font&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DPT_xszIuRtOfXbqZ1-z-1">
           <mxGeometry x="-20" y="1314.6511627906978" width="17.8125" height="108.8372093023256" as="geometry" />
         </mxCell>
-        <mxCell id="9MVHOAwCIAFZyWsLew_H-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;2. send req to login&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="DPT_xszIuRtOfXbqZ1-z-1" target="9MVHOAwCIAFZyWsLew_H-6">
+        <mxCell id="9MVHOAwCIAFZyWsLew_H-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;2. send req to login&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="DPT_xszIuRtOfXbqZ1-z-1" target="9MVHOAwCIAFZyWsLew_H-6" source="9MVHOAwCIAFZyWsLew_H-2">
           <mxGeometry x="-607.8125" y="970" as="geometry">
             <mxPoint x="-474.2187499999998" y="1314.6511627906978" as="sourcePoint" />
           </mxGeometry>
