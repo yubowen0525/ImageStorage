@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T02:14:09.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="P_neXmye7mFQ_37NlMCF" version="14.9.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-20T02:20:42.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="-6PnTuNUG9MV3Ot0wwPs" version="14.9.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1796" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -763,7 +763,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="doC7LhH4VMsgOnH61H9x" name="Page-3">
-    <mxGraphModel dx="2427" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2427" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-0" />
         <mxCell id="DPT_xszIuRtOfXbqZ1-z-1" parent="DPT_xszIuRtOfXbqZ1-z-0" />
@@ -890,7 +890,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sqDzRIbG4qpWl0GCGPEs" name="Page-4">
-    <mxGraphModel dx="1796" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1796" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="MVIVDDmD7ontjMzA8a7H-0" />
         <mxCell id="MVIVDDmD7ontjMzA8a7H-1" parent="MVIVDDmD7ontjMzA8a7H-0" />
@@ -949,7 +949,7 @@
             <mxPoint x="-454.05999999999995" y="406" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eJJLeuwuJHu9U5O9_EgX-0" value="&lt;font color=&quot;#ff3333&quot;&gt;23s～1分钟&lt;br&gt;&lt;br&gt;https://www.google-analytics.com/analytics.js&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=180;height=70;" parent="MVIVDDmD7ontjMzA8a7H-1" vertex="1">
+        <mxCell id="eJJLeuwuJHu9U5O9_EgX-0" value="&lt;font color=&quot;#ff3333&quot;&gt;正常3s ~&amp;nbsp; 5s 显示白色页面&lt;br&gt;&lt;br&gt;其中analytics.js 加载23s～1分钟&lt;br&gt;https://www.google-analytics.com/analytics.js&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=180;height=70;" parent="MVIVDDmD7ontjMzA8a7H-1" vertex="1">
           <mxGeometry x="-760" y="210" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mK08fxHLpxULokOb2piC-1" value="3. get resource" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="MVIVDDmD7ontjMzA8a7H-1">
